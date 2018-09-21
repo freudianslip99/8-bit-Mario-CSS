@@ -1,3 +1,6 @@
+//CSS file for 8-bit Mario.  Contains 16x16 block for the body of Mario.  Click and hold button action to make Mario jump.  
+
+//16X16 container block 
 .final__mario-block {
     display: inline-block;
     position: relative;
@@ -6,6 +9,7 @@
     height: 16em;
   }
  
+//wahoo button and jump action 
   #final__wahoo {
     outline: none;
   }
@@ -21,6 +25,7 @@
     100% { left: 0; bottom: 0; }
   }
  
+//Colored blocks to build Mario's body 
   .final__mario {
     display: block;
     width: 1em;
